@@ -1,0 +1,80 @@
+body {
+  background-color: hsl(40, 15%, 50%);
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.app {
+  padding: 20px;
+  background-color: #bfc7aa;
+  min-height: 100vh;
+}
+.showcard {
+  border: 1px solid #2e2a2a;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  cursor: pointer;
+  margin: 10px;
+  background-color: rgb(231, 224, 224);
+  transition: transform 0.2s ease-in-out;
+}
+.showcard:hover {
+  transform: scale(1.03);
+}
+.showcardimage{
+  width: 100%;
+  border-radius: 10px;
+}
+.showcardtitle {
+  margin: 10px 0 5px;
+  font-size: 18px;
+  color: #333;
+}
+
+.showcardyear {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+.showcardsummary {
+  background-color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  line-height: 1.6;
+  color: #333;
+  margin-top: 10px;
+}
+.showlistcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+
+.noshows{
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+  margin-top: 20px;
+}
+.searchform{
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.searchinput{
+  padding: 8px;
+  width: 250px;
+  border:2px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.searchbtn{
+  padding: 8px 15px;
+  margin-left: 8px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
